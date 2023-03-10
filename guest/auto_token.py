@@ -19,3 +19,4 @@ time.sleep(10)
 data=driver.get_cookie('gt')
 with open('token.json','w',encoding='utf-8') as fp:
     json.dump(data,fp)
+    print(json.dump(data,fp))
